@@ -6,7 +6,7 @@ test('test', async ({ page, browser }) => {
     }
   });
   // Go to http://jenkins:8080/
-  await page.goto('http://jenkins:8080/');
+  await page.goto('/');
   // Click [placeholder="Username"]
   await page.locator('[placeholder="Username"]').click();
   // Fill [placeholder="Username"]
